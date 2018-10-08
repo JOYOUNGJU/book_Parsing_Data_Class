@@ -12,6 +12,10 @@
 		0C5997C6216AEBE500C5B301 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C5997C4216AEBE500C5B301 /* Main.storyboard */; };
 		0C5997C8216AEBE700C5B301 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C5997C7216AEBE700C5B301 /* Assets.xcassets */; };
 		0C5997CB216AEBE700C5B301 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C5997C9216AEBE700C5B301 /* LaunchScreen.storyboard */; };
+		0C5997D5216AEC8E00C5B301 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5997D4216AEC8E00C5B301 /* TableViewCell.swift */; };
+		0C5997D8216AF21D00C5B301 /* BookData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5997D7216AF21D00C5B301 /* BookData.swift */; };
+		0C5997DA216AF29100C5B301 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5997D9216AF29100C5B301 /* TableViewController.swift */; };
+		0C5997DC216AF4C900C5B301 /* book.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0C5997DB216AF4C900C5B301 /* book.xml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		0C5997C7216AEBE700C5B301 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C5997CA216AEBE700C5B301 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C5997CC216AEBE700C5B301 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C5997D4216AEC8E00C5B301 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewCell.swift; path = ../../../../Documents/book_XML_Parsing_Dict/book_XML_Parsing_Dict/TableViewCell.swift; sourceTree = "<group>"; };
+		0C5997D7216AF21D00C5B301 /* BookData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookData.swift; sourceTree = "<group>"; };
+		0C5997D9216AF29100C5B301 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		0C5997DB216AF4C900C5B301 /* book.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = book.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				0C5997C7216AEBE700C5B301 /* Assets.xcassets */,
 				0C5997C9216AEBE700C5B301 /* LaunchScreen.storyboard */,
 				0C5997CC216AEBE700C5B301 /* Info.plist */,
+				0C5997D4216AEC8E00C5B301 /* TableViewCell.swift */,
+				0C5997D7216AF21D00C5B301 /* BookData.swift */,
+				0C5997D9216AF29100C5B301 /* TableViewController.swift */,
+				0C5997DB216AF4C900C5B301 /* book.xml */,
 			);
 			path = book_Parsing_Data_Class;
 			sourceTree = "<group>";
@@ -124,6 +136,7 @@
 			files = (
 				0C5997CB216AEBE700C5B301 /* LaunchScreen.storyboard in Resources */,
 				0C5997C8216AEBE700C5B301 /* Assets.xcassets in Resources */,
+				0C5997DC216AF4C900C5B301 /* book.xml in Resources */,
 				0C5997C6216AEBE500C5B301 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,7 +148,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C5997D5216AEC8E00C5B301 /* TableViewCell.swift in Sources */,
 				0C5997C3216AEBE500C5B301 /* ViewController.swift in Sources */,
+				0C5997D8216AF21D00C5B301 /* BookData.swift in Sources */,
+				0C5997DA216AF29100C5B301 /* TableViewController.swift in Sources */,
 				0C5997C1216AEBE500C5B301 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
